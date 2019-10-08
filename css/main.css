@@ -1,0 +1,147 @@
+body {
+  /* font-family: 'Courgette', cursive; */
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, h2, h3, h4, label{
+  font-family: 'Courgette', cursive;
+}
+
+header {
+  background-image: linear-gradient(#333, #333), url('../img/header.jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: left;
+  padding-bottom: 120px;
+}
+
+nav {
+  margin-bottom: 60px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+.nav-link {
+  font-weight: 300;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-top: 10px;
+}
+
+header img {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.article {
+  margin-bottom: 30px;
+}
+
+nav {
+  border-bottom: 1px solid #555;
+}
+
+#maincontent h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: black;
+  padding: 0 30px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+footer li a i{
+  background-color: white;
+  padding: 8px;
+}
+
+footer h3, footer h4 {
+  color: white;
+}
+
+h4{
+  font-size: 1em;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+footer label{
+  font-family: "Courgette";
+  color: white;
+}
+
+footer li {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+footer i {
+  color: black;
+}
+
+aside form button {
+  width: 100%;
+}
+
+h1 {
+  size: 960px;
+}
+
+#bodywrap h2 {
+  margin-top: 40px;
+}
+
+.article p {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+
+
+#bodywrap>h2 {
+  font-size: 1.7em;
+  margin: 50px 0;
+}
+
+aside {
+  padding-left: 0;
+  margin: 0;
+}
+
+aside label {
+  font-family: "Courgette";
+}
+
+#socialaside {
+  margin: 0;
+  padding: 0;
+}
+
+#socialaside li {
+  display: inline;
+}
+
+#socialaside button {
+  text-align: left;
+  margin: 0;
+  padding: 0 6px;
+}
+
+#share button{
+  margin: 6px;
+}
