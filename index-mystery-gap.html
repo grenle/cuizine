@@ -18,35 +18,7 @@
 
 
   <body>
-    <!-- The header with navigation, branding and main titles -->
-    <header>
-      <!-- body / header / nav -->
-      <nav class="navbar navbar-dark navbar-expand-lg">
-        <span class="navbar-brand">Cui'zine</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link active" href="">Acceuil</a></li>
-            <li class="nav-item"><a class="nav-link" href="./team.html">Equipe</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-      <!-- body / header -->
 
-      <!-- body / header / div (logo / title / subtitle) -->
-      <div class="text-center text-light">
-        <img src="./img/logo_square_white.png" />
-        <h1>Cui'zine</h1>
-        <h2>Le mag cuisine</h2>
-      </div>
-    </header>
     <!--                                                 -->
     <!--              End of heading block               -->
     <!--                                                 -->
@@ -57,12 +29,8 @@
 
 
       <!--          div.row / div.col / h2               -->
-
-      <div class="row text-center">
-        <h2 class="col-12">Derniers Articles</h2>
-      </div>
       <div class="row">
-        <div id="maincontent" class="p-0 col-12 col-lg-9">
+        <div id="maincontent" class="col-12 col-lg-9">
           <div id="articles">
             <div class="article row">
               <div class="col-12 col-md-4 col-lg-3">
@@ -120,77 +88,10 @@
             </div>
             <p><a>&laquo; Voir les articles précédents</a></p>
           </div>
-          <!-- end or articles -->
         </div>
-
-        <!-- end of main content -->
-        <!--                                            -->
-        <!--     body / .container / .row / aside       -->
-        <!--                                            -->
-        <aside class="col-0 col-lg-3 d-none d-lg-block">
-          <form>
-            <label for="search">Recherche</label>
-            <input id="search" type="text" placeholder="Recherche..."
-              class="form-control"
-              />
-            <button type="button" class="btn btn-outline-dark">Ok</button>
-          </form>
-          <form>
-            <label for="emailaside">Newsletter</label>
-            <input type="email" id="emailaside" placeholder="Email..."
-              class="form-control" />
-            <button type="submit" class="btn btn-outline-dark">S'inscrire</button>
-          </form>
-          <h4>Partager</h4>
-          <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn"><i class="fab fa-facebook-square"></i></button>
-            <button type="button" class="btn"><i class="fab fa-instagram"></i></button>
-            <button type="button" class="btn"><i class="fab fa-youtube"></i></button>
-            <button type="button" class="btn"><i class="fab fa-twitter"></i></button>
-          </div>
-        </aside>
       </div>
     </div>
 
-    <div class="container-fluid">
-      <footer class="row">
-        <div class="col-12 col-lg-3 offset-lg-2">
-          <h3>Catégories</h3>
-          <ul>
-            <li><a class="nav-item" href="">Revues</a></li>
-            <li><a href="">Recettes</a></li>
-            <li><a href="">Découvertes</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-lg-3">
-          <h3>Archives</h3>
-          <ul>
-            <li><a href="">2019</a></li>
-            <li><a href="">2018</a></li>
-            <li><a href="">2017</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-lg-4">
-          <form>
-            <label for="email">Newsletter</label>
-            <div class="form-row">
-              <div class="col-4">
-                <input type="email" id="email" class="form-control"
-                  placeholder="foobar@example.com" />
-              </div>
-              <div>
-                <button type="button" class="btn btn-outline-light">S'inscrire</button>
-              </div>
-            </div>
-          </form>
-          <h4>Partager</h4>
-          <button class="btn btn-light"><i class="fab fa-facebook"></i></button>
-          <button class="btn btn-light"><i class="fab fa-instagram"></i></button>
-          <button class="btn btn-light"><i class="fab fa-youtube"></i></button>
-          <button class="btn btn-light"><i class="fab fa-twitter"></i></button>
-        </div>
-      </footer>
-    </div>
     <!-- end of outermost container -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

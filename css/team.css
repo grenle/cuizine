@@ -1,0 +1,16 @@
+header{
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: top top;
+  padding-bottom: 120px;
+  margin-bottom: 45px;
+  background-image: linear-gradient(#333, #333), url('../img/team/team.jpg');
+}
+
+header h2{
+  margin-bottom: 204px;
+}
+
+figure img{
+  border-radius: 50%;
+}

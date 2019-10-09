@@ -7,15 +7,18 @@ h1, h2, h3, h4, label, nav span {
   font-family: 'Courgette', cursive;
 }
 
+
 header {
-  background-image: linear-gradient(#333, #333), url('../img/header.jpg');
   background-size: cover;
   background-blend-mode: multiply;
   background-position: left;
   padding-bottom: 120px;
+  margin-bottom: 45px;
+  background-image: linear-gradient(#333, #333), url('../img/header.jpg');
 }
 
 nav {
+  border-bottom: 1px solid #555;
   margin-bottom: 60px;
 }
 
@@ -37,22 +40,13 @@ header img {
   margin-bottom: 10px;
 }
 
+
 .article {
   margin-bottom: 30px;
 }
 
-nav {
-  border-bottom: 1px solid #555;
-}
-
-#maincontent h2 {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
 footer {
   background-color: black;
-  padding: 0 30px;
   padding-top: 60px;
   padding-bottom: 50px;
 }
@@ -73,6 +67,15 @@ h4 {
 footer ul {
   list-style-type: none;
   padding: 0;
+}
+
+footer button:nth-of-type(2){ width: 40px; }
+footer button:nth-of-type(3){ width: 40px; }
+footer button:nth-of-type(4){ width: 40px; }
+footer button:nth-of-type(5){ width: 40px; }
+
+footer button:nth-of-type(3){
+  padding-left: 10px;
 }
 
 footer a {
@@ -98,11 +101,6 @@ aside form button {
   width: 100%;
 }
 
-#bodywrap h2 {
-  margin-top: 40px;
-  font-size: 1.7em;
-  margin: 50px 0;
-}
 
 .article p {
   font-weight: 300;
@@ -133,6 +131,19 @@ aside label {
   padding: 0 6px;
 }
 
-#share button {
-  margin: 6px;
+form button{
+  width: 100%;
+}
+
+
+#asidesocial{
+  padding-left: 0;
+  list-style-type: none;
+}
+
+#asidesocial li{
+  display: inline-block;
+  color: black;
+  font-size: 1.2em;
+  margin: 0 8px;
 }

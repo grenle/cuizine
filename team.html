@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+  <!-- What is we DON'T want the img/alt, skip it, blind user gets nothing out of the description -->
+  <head>
+    <title>Cui'zine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette|Oswald:300,400,500&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/team.css" />
+  </head>
+
+
+  <body>
+    <!-- The header with navigation, branding and main titles -->
+    <header>
+      <!-- body / header / nav -->
+      <nav class="navbar navbar-dark navbar-expand-lg">
+        <span class="navbar-brand">Cui'zine</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="./">Acceuil</a></li>
+            <li class="nav-item"><a class="nav-link active" href="">Equipe</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- body / header -->
+
+      <!-- body / header / div (logo / title / subtitle) -->
+      <div class="text-center text-light">
+        <h1>On apprend en enseignant</h1>
+        <h2>Un pour tous et tous pour un</h2>
+      </div>
+    </header>
+
+    <div id="bodywrap" class="container">
+      <div class="row">
+        <div class="col-12 col-lg-9">
+          <div class="row">
+            <figure class="col-12 col-md-6 col-lg-4">
+              <img src='./img/team/tony.jpg' class="img-fluid p-5 alt="" />
+              <figcaption class="text-center">
+                <h3>Tony</h3>
+                <p>Rédacteur en chef</p>
+              </figcaption>
+            </figure>
+            <figure class="col-12 col-md-6 col-lg-4">
+              <img src='./img/team/clementine.jpg' class="img-fluid p-5 alt=""
+                />
+              <figcaption class="text-center">
+                <h3>Clémentine</h3>
+                <p>Journaliste culinaire</p>
+              </figcaption>
+            </figure>
+            <figure class="col-12 col-md-6 col-lg-4">
+              <img src='./img/team/antoine.jpg' class="img-fluid p-5 alt="" />
+              <figcaption class="text-center">
+                <h3>Antoine</h3>
+                <p>Gouteur Professionnel</p>
+              </figcaption>
+            </figure>
+            <figure class="col-12 col-md-6 col-lg-4">
+              <img src='./img/team/tony.jpg' class="img-fluid p-5 alt="" />
+              <figcaption class="text-center">
+                <h3>Tony</h3>
+                <p>Rédacteur en chef</p>
+              </figcaption>
+            </figure>
+            <figure class="col-12 col-md-6 col-lg-4">
+              <img src='./img/team/clementine.jpg' class="img-fluid p-5 alt=""
+                />
+              <figcaption class="text-center">
+                <h3>Clémentine</h3>
+                <p>Journaliste culinaire</p>
+              </figcaption>
+            </figure>
+            <figure class="col-12 col-md-6 col-lg-4">
+              <img src='./img/team/antoine.jpg' class="img-fluid p-5 alt="" />
+              <figcaption class="text-center">
+                <h3>Antoine</h3>
+                <p>Gouteur Professionnel</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="d-none d-lg-block col-lg-3">
+          <form>
+            <label for="search">Recherche</label>
+            <input class="form-control" type="text" id="search" />
+            <button type="button" class="btn btn-outline-dark">Ok</button>
+            <labe for="newsletter">Newsletter</label>
+            <input class="form-control" type="email" id="newsletter" />
+            <button type="button" class="btn btn-outline-dark">S'inscrire</button>
+          </form>
+          <h4>Partager</h4>
+          <ul id="asidesocial">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-youtube"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <footer class="row">
+        <div class="col-12 col-lg-4 offset-lg-1">
+          <h3>Catégories</h3>
+          <ul>
+            <li><a class="nav-item" href="">Revues</a></li>
+            <li><a href="">Recettes</a></li>
+            <li><a href="">Découvertes</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-4">
+          <h3>Archives</h3>
+          <ul>
+            <li><a href="">2019</a></li>
+            <li><a href="">2018</a></li>
+            <li><a href="">2017</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3">
+          <form>
+            <label for="email">Newsletter</label>
+            <div class="form-row">
+              <div class="col-4">
+                <input type="email" id="email" class="form-control"
+                  placeholder="foobar@example.com" />
+              </div>
+              <div>
+                <button type="button" class="btn btn-outline-light">S'inscrire</button>
+              </div>
+            </div>
+          </form>
+          <h4>Partager</h4>
+          <button class="btn btn-light"><i class="fab fa-facebook"></i></button>
+          <button class="btn btn-light"><i class="fab fa-instagram"></i></button>
+          <button class="btn btn-light"><i class="fab fa-youtube"></i></button>
+          <button class="btn btn-light"><i class="fab fa-twitter"></i></button>
+        </div>
+      </footer>
+    </div>
+
+    <!-- end of outermost container -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

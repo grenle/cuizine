@@ -1,0 +1,12 @@
+.mapouter {
+  margin-bottom: 40px;
+}
+
+header h1{
+  margin-bottom: 160px;
+}
+
+#mapid {
+  width: 100%; height: 40em;
+  margin-bottom: 50px;
+}
