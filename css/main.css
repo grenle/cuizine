@@ -3,7 +3,7 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
-h1, h2, h3, h4, label{
+h1, h2, h3, h4, label, nav span {
   font-family: 'Courgette', cursive;
 }
 
@@ -57,7 +57,7 @@ footer {
   padding-bottom: 50px;
 }
 
-footer li a i{
+footer li a i {
   background-color: white;
   padding: 8px;
 }
@@ -66,7 +66,7 @@ footer h3, footer h4 {
   color: white;
 }
 
-h4{
+h4 {
   font-size: 1em;
 }
 
@@ -80,7 +80,7 @@ footer a {
   text-decoration: underline;
 }
 
-footer label{
+footer label {
   font-family: "Courgette";
   color: white;
 }
@@ -98,24 +98,15 @@ aside form button {
   width: 100%;
 }
 
-h1 {
-  size: 960px;
-}
-
 #bodywrap h2 {
   margin-top: 40px;
+  font-size: 1.7em;
+  margin: 50px 0;
 }
 
 .article p {
   font-weight: 300;
   font-size: 0.9em;
-}
-
-
-
-#bodywrap>h2 {
-  font-size: 1.7em;
-  margin: 50px 0;
 }
 
 aside {
@@ -142,6 +133,6 @@ aside label {
   padding: 0 6px;
 }
 
-#share button{
+#share button {
   margin: 6px;
 }
